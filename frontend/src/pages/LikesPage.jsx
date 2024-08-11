@@ -19,7 +19,7 @@ const LikesPage = () => {
 			}
 		};
 		getLikes();
-	}, []);
+	}, [likes]);
 	console.log("likes:", likes);
 
 	return (
